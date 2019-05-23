@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/build
+END
+premake4.exe
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/build/premake4.exe
+END
+premake4.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/build/premake4.lua
+END
+config-default.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/build/config-default.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/tools
+END
+ode_convex_export.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/tools/ode_convex_export.py
+END
+msw-release.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/tools/msw-release.bat
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/tools/README.txt
+END
+src-release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/opende/!svn/ver/1674/tags/0.11.1/tools/src-release.sh
+END

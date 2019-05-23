@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{d721c0f0-6b62-4c4c-92f4-e451ac024687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{e95cb2bf-a900-4c1d-9cbf-35360c46664e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_module_proxy">
+      <UniqueIdentifier>{b899643d-b517-4616-86b3-da1a3e384d9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="stalker2_ps3_library_linkage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="stalker2_ps3_application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game_module_proxy.cpp">
+      <Filter>game_module_proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="stalker2_ps3_entry_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="stalker2_ps3_application.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game_module_proxy.h">
+      <Filter>game_module_proxy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

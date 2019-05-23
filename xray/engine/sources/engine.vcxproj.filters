@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{876f3700-0062-45ab-9a58-04f281499dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{01bfd241-eedd-432e-bd75-6879cce91528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{d47423a6-f714-43b0-ac3d-c2f64a63eb7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rpc">
+      <UniqueIdentifier>{846a5d6e-4fb4-4557-8753-fbb31ae7a7d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine_library_linkage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_editor.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_interfaces.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_logic.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_network.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_ps3.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_sound.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_win.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_world_xbox360.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_entry_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine_memory.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine_user.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library_dependencies.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library_linkage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_world.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

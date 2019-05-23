@@ -1,0 +1,2238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{f51da12d-fd1d-497f-a056-6053dbcb1453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions">
+      <UniqueIdentifier>{8cd08bbf-472e-4bd5-a41a-58a8d35309d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\logging">
+      <UniqueIdentifier>{5722de12-f7e0-4922-adce-ae1f5c911f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\logging\helper">
+      <UniqueIdentifier>{002ec9e2-b353-42e2-b239-49eea48901d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\logging\helper\path_parts">
+      <UniqueIdentifier>{5695f839-2951-49f1-a9e5-2e7769ab162a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\logging\helper\settings">
+      <UniqueIdentifier>{edf95932-69e5-4823-90e5-807e25adc1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\logging\log_file">
+      <UniqueIdentifier>{3f2b4c4d-872c-4f4d-abf0-ac6196049d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\logging\rule_tree_node">
+      <UniqueIdentifier>{83578cee-83e1-4c6c-95d3-718f973baf45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory">
+      <UniqueIdentifier>{2a100802-0515-41e7-80d6-0a674b575a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators">
+      <UniqueIdentifier>{0c4b1f4e-bdee-40b3-b1f1-f7bed033a287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers">
+      <UniqueIdentifier>{afdbf3ee-1c18-489b-b526-d073f099b96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\dlmalloc">
+      <UniqueIdentifier>{2e6be7a5-068e-46ec-b214-d27f35d88d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\ptmalloc3">
+      <UniqueIdentifier>{0e2e7270-4c13-4fe8-826c-2a42545beca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\crt">
+      <UniqueIdentifier>{443b2822-c2aa-4f38-a308-4bcd459f6ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\base">
+      <UniqueIdentifier>{8d81c81e-f55e-4e27-acd1-fa43e86bc61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\stack_arena_allocator">
+      <UniqueIdentifier>{a608fe58-be36-42f7-9b6c-efce7e34aa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\stack_arena_allocator\block">
+      <UniqueIdentifier>{f31f5fc6-ad6f-438a-9c4a-ff0de6580077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\wrappers\process">
+      <UniqueIdentifier>{c1e6e4ac-2eea-4ad3-8c20-f191360d2a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc">
+      <UniqueIdentifier>{0a507b4e-9ed3-4368-9a1f-96083f3e9700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps">
+      <UniqueIdentifier>{f7e3e53e-52c6-4e5b-9b88-8c8ada0a5d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\generic">
+      <UniqueIdentifier>{837b28a6-37a6-44cf-8501-1b4c08a74676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\pthread">
+      <UniqueIdentifier>{79292cab-4704-4e20-83cd-775452441977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\win32">
+      <UniqueIdentifier>{31879a7c-5649-4eab-b06b-f5c0b862ff1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\sproc">
+      <UniqueIdentifier>{cb9e5e91-609b-4816-9012-f86551eeb306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\solaris">
+      <UniqueIdentifier>{18d7d160-08ca-4d94-b5de-608f5e34d9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\win_xbox360_ps3">
+      <UniqueIdentifier>{601d964e-c798-421e-9cf5-4c1ea5fc773f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\virtual_alloc">
+      <UniqueIdentifier>{31a14463-8e52-427d-9d15-728d15220c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\monitor">
+      <UniqueIdentifier>{354deadf-630c-4e22-ae37-7713a7fae8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\reader">
+      <UniqueIdentifier>{a27a24cf-ec7b-4fa9-9391-b8b34b832d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\reader\chunk">
+      <UniqueIdentifier>{cbb7d9d0-69d5-492c-99b9-bfedc5e670a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\stream">
+      <UniqueIdentifier>{4b7a87e9-18df-47da-a4bf-9d216c1b78db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\leak_detector">
+      <UniqueIdentifier>{e7a438f6-0e77-458b-9529-9145ade10d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\guard">
+      <UniqueIdentifier>{7547fb5c-03c5-469f-9a71-6bed8555ebea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\memory\writer">
+      <UniqueIdentifier>{018827f4-c6b1-4d38-92be-a770f86b6e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\threading">
+      <UniqueIdentifier>{8f2cad69-38ca-4839-bc3c-1c01b7a5a993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\threading\primitives">
+      <UniqueIdentifier>{099df752-f5ae-4248-8403-63f98312b55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\threading\primitives\event">
+      <UniqueIdentifier>{79411f01-d849-4090-a0be-ce79cd96ea15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\threading\primitives\mutex">
+      <UniqueIdentifier>{bc7b03c0-3c55-4b67-8069-06332345ce0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\threading\functions">
+      <UniqueIdentifier>{8503fafb-f3d9-4faf-8c18-4d0eb9503151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\threading\tests">
+      <UniqueIdentifier>{f6c87a30-d7c0-48d8-89d0-0595ca4c0b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\os_extensions">
+      <UniqueIdentifier>{b7bab191-85c8-4c74-9ac8-f24fab5f82ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\os_extensions\functions">
+      <UniqueIdentifier>{e8c15786-bd04-4674-a5fc-a2d30cbf7845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\debug">
+      <UniqueIdentifier>{199e3813-feac-4f11-9536-0f6bb0e9217b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\debug\bugtrap">
+      <UniqueIdentifier>{1d2efd25-aa64-4212-be90-2418f7725242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\debug\initialize">
+      <UniqueIdentifier>{d3ada828-07f4-4299-8809-7a11458ffcd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\debug\unhandled">
+      <UniqueIdentifier>{ced9f5cf-a7c5-432c-876a-cfa6532330f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\debug\call_stack">
+      <UniqueIdentifier>{f7eb1373-72e7-4bd5-ac06-855866b7e393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings">
+      <UniqueIdentifier>{22cd6f69-5c86-43d0-a8b4-6c73f5b494cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\shared">
+      <UniqueIdentifier>{e4d84d0e-92e0-4341-b7e8-b008036f6cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\shared\manager">
+      <UniqueIdentifier>{ff0425cf-0484-446d-8a49-e648841717c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\shared\profile">
+      <UniqueIdentifier>{27e81108-6639-465c-a4de-cb3efef852e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\buffer">
+      <UniqueIdentifier>{2a20f2dd-cd5e-45d1-9f6c-355fcc030d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\concatenations">
+      <UniqueIdentifier>{39883d2f-fd77-4ab8-bfe9-afd486366d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\concatenations\detail">
+      <UniqueIdentifier>{577e6da8-7847-4c1c-86ce-b95909b1ce2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\strings\stream">
+      <UniqueIdentifier>{7ccc5308-46c2-4119-8d5e-1cdc65e2f298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\platform">
+      <UniqueIdentifier>{bbf5acb7-5171-46bc-b91c-fbebf2256984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs">
+      <UniqueIdentifier>{042285c1-46c2-49b3-b063-bc7b5de9d649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\file system">
+      <UniqueIdentifier>{e7786cba-bedd-4c02-b828-b58b900ad888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\file system\macros">
+      <UniqueIdentifier>{92a7e07e-d446-4126-82be-3b916cf8164b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\file system\nodes">
+      <UniqueIdentifier>{91f1db85-0905-437d-8541-95a94eff8597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\file system\impl">
+      <UniqueIdentifier>{0ef5f7f6-af85-4437-95ae-f6249f257958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\path_iterator">
+      <UniqueIdentifier>{f2d63420-673e-4865-ac51-fb55cf93f0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\path">
+      <UniqueIdentifier>{ed733bef-b224-47e7-9a48-5b78ae429d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\utils">
+      <UniqueIdentifier>{2e678b8c-8881-4334-957a-969b79a57989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\fs\watcher">
+      <UniqueIdentifier>{982111c8-41b4-48c0-85cb-b05b25c8c67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources">
+      <UniqueIdentifier>{a43750b7-5736-433b-becf-54646bd86cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\memory">
+      <UniqueIdentifier>{5160f6c5-18aa-45ea-926f-abc29c20b7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\device_managers">
+      <UniqueIdentifier>{bc40cf02-aa19-408c-85c4-1d8d298c5966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\test">
+      <UniqueIdentifier>{ce520000-cca1-4f51-8421-c670c3390078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\helper">
+      <UniqueIdentifier>{853e8502-e542-4263-937c-1f18761355a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\query_result">
+      <UniqueIdentifier>{bb833a66-07d5-4bf4-b5d8-601ed0f1deed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\cook">
+      <UniqueIdentifier>{f8b53993-f51e-4e53-bfd5-132eb4387c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\fs operations">
+      <UniqueIdentifier>{ceef1f32-ad77-426a-9cbc-9c2d9912b6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\resource">
+      <UniqueIdentifier>{7015728f-60dc-44c7-ba08-aa3095f24dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\resources\manager">
+      <UniqueIdentifier>{60ddcb9a-cca0-4eb6-8672-47d73385407d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\build">
+      <UniqueIdentifier>{7ce98b5d-8c3e-4c4a-89c8-4753fc200f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\timing">
+      <UniqueIdentifier>{b6255575-555f-415a-b1e6-f7b2035a1f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs">
+      <UniqueIdentifier>{0ee8565c-cee8-48a5-bbfe-52bde71d5825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\ltx">
+      <UniqueIdentifier>{6ef27ff4-fc7e-4b50-b0e9-8ac2ba5dd891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\ltx\cook">
+      <UniqueIdentifier>{ed730430-902b-44e4-8103-4f608b0ad7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\binary_config">
+      <UniqueIdentifier>{36338a2c-e912-4d96-a89e-dd421bf953da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\binary_config\value">
+      <UniqueIdentifier>{ce7c897a-fd60-422d-8b91-5b193613676c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\binary_config\cook">
+      <UniqueIdentifier>{96ebc1a9-d3bc-41ce-88d2-26692fdf796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\lua">
+      <UniqueIdentifier>{440065b8-a83e-4955-8b73-aca6bfd9ef92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\lua\wrapper">
+      <UniqueIdentifier>{a1435647-6b4e-4287-b497-a41efa689dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\configs\lua\cook">
+      <UniqueIdentifier>{1542a3f4-714d-4e63-9a20-97cca0cb3e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\console">
+      <UniqueIdentifier>{b3cf94de-5950-4c88-9c91-36043a88033f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\compression">
+      <UniqueIdentifier>{70329aeb-3a6a-429b-b83e-4d8bedbba5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\compression\ppmd">
+      <UniqueIdentifier>{c8fa9041-af3d-438b-ad2a-1f1c906ce8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\testing">
+      <UniqueIdentifier>{b4e091a4-d375-4b68-ab28-d0f542d78004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\command_line">
+      <UniqueIdentifier>{789c8fa9-ab63-4a12-89e9-8ba57a888b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\tasks">
+      <UniqueIdentifier>{307cd595-f396-4005-bc3a-800f89ae20df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\tasks\tasks_aware_primitives">
+      <UniqueIdentifier>{4003ce45-6a8c-4c29-8e08-6d76a670782e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math">
+      <UniqueIdentifier>{ef64b353-b1d2-4c1b-8b75-e6e7f3d16821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\float4x4">
+      <UniqueIdentifier>{02cc1779-3c36-4ee4-b345-25c18d0ca439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\sphere">
+      <UniqueIdentifier>{db72b04d-3ba1-447b-a7cd-7c32afb1dbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\obb">
+      <UniqueIdentifier>{a0a44668-d6b9-415d-a901-a30b44f4939e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\aabb">
+      <UniqueIdentifier>{6c224128-b149-440f-ba14-14383408dac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\cylinder">
+      <UniqueIdentifier>{24c06c39-be90-45d1-a12a-eb68de8c0822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\float3">
+      <UniqueIdentifier>{f1a81a8b-412d-42e9-8cbd-4b860e473944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\frustum">
+      <UniqueIdentifier>{0cf6cdf4-9d9c-4d01-add0-2f7227f46414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\quaternion">
+      <UniqueIdentifier>{a3fd04b4-a57a-4095-a08f-0212398f9061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\aabb_plane">
+      <UniqueIdentifier>{b7c0ea10-1fd7-4efc-87c4-6be6d8cc2885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\cuboid">
+      <UniqueIdentifier>{38f7b9fb-1eea-4389-8890-36387adc6364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\constants">
+      <UniqueIdentifier>{cb827f3d-e7e5-4bbf-a5b7-3fbfca7678cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions\math\tests">
+      <UniqueIdentifier>{e7c25744-5879-4f87-9168-b7cefe0465dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c0bd33f7-1fe9-4879-b8ef-eff104f7b7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\macro">
+      <UniqueIdentifier>{227105fc-e8b0-4565-8e1a-375728caa418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\macro\macros">
+      <UniqueIdentifier>{d035a190-bff4-4511-a65a-86945baaefb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\optimization">
+      <UniqueIdentifier>{a49d4358-fec3-49ac-a1cb-6303934e5ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\type">
+      <UniqueIdentifier>{6ee8a32d-9a9f-49a1-9c27-347c92ebdce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\debug">
+      <UniqueIdentifier>{c5d41bcd-5a1d-444f-b32d-773621f10bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\os_extensions">
+      <UniqueIdentifier>{a5b6987d-e022-4c03-9f84-0e3249764718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\os_extensions\functions">
+      <UniqueIdentifier>{227792c4-de58-40cf-942c-5c00dc2fb519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\threading">
+      <UniqueIdentifier>{f6bd0a1d-e83b-46c2-b025-9d72bfa63fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\threading\primitives">
+      <UniqueIdentifier>{38242fbb-29f0-4a2f-a2b1-92b5c121843d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\threading\functions">
+      <UniqueIdentifier>{c3a86198-230a-4482-b282-1c6b3109a053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\linkage">
+      <UniqueIdentifier>{b56570f6-3ebd-4469-a71d-6a2a8ce6e3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{d0d40229-4e3f-4ab0-b2e9-97d599dbec02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\timing">
+      <UniqueIdentifier>{3af70440-a832-49f3-a295-6c0a882518a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\timing\timer">
+      <UniqueIdentifier>{0c7623ce-92cc-4648-b255-a98f653ed8fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\timing\functions">
+      <UniqueIdentifier>{cf6f7923-c3d7-4724-b796-ac5b351dc73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math">
+      <UniqueIdentifier>{2b509d56-38b4-453c-9798-af51488c9787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\functions">
+      <UniqueIdentifier>{1d7cf2df-d2e4-46eb-8bbe-a6bf9009cd38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\float2">
+      <UniqueIdentifier>{f015288a-5882-4cef-bc2c-8ac11b06f026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\float3">
+      <UniqueIdentifier>{2c232762-ec7d-47cf-881c-838b2470ba20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\float4">
+      <UniqueIdentifier>{3e8aa8d1-d4e0-4d57-a6a1-0c4f98a29224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\float4x4">
+      <UniqueIdentifier>{9760fc61-513d-411b-aeb4-a0b5b0a6cd23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\plane">
+      <UniqueIdentifier>{b34a6d99-1b82-4c90-91c9-f422931725a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\sphere">
+      <UniqueIdentifier>{1fc59b66-50ad-4716-8c59-312965bf6549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\aabb">
+      <UniqueIdentifier>{5d063172-5519-4ca9-9c21-db44d19b9671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\obb">
+      <UniqueIdentifier>{a36ba2c5-2347-4281-ae73-e410339abfc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\rectangle">
+      <UniqueIdentifier>{768214a8-87da-4c64-ba59-05d2165af5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\quaternion">
+      <UniqueIdentifier>{1a40336a-1e3a-41e3-bdbd-fb88e94d3989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\cylinder">
+      <UniqueIdentifier>{b69a2259-e133-424a-bf85-d63cf10e03ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\frustum">
+      <UniqueIdentifier>{f9610ee1-f8f0-4485-83da-e0bf19aa3244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\color">
+      <UniqueIdentifier>{beb8559e-0446-4e6d-bf4a-65486aba01e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\aabb_plane">
+      <UniqueIdentifier>{694c6d3a-1f52-40bd-88a0-3d1d335149d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\int2">
+      <UniqueIdentifier>{49cd126d-dedd-4773-bda5-8c916431c358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\cuboid">
+      <UniqueIdentifier>{7722ea90-decd-44bf-b473-ece78e7b7d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\math\random">
+      <UniqueIdentifier>{9c8be169-83b2-4e09-b019-2aed8324dc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\resources">
+      <UniqueIdentifier>{3d0e4cfa-73c9-46ae-b053-cc4b729a446c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\resources\resource">
+      <UniqueIdentifier>{f2fb7745-38ed-4b66-a945-34e3b9832533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\fs">
+      <UniqueIdentifier>{59e81b9f-c496-46d3-b363-27c2be3bae5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\fs\path_string">
+      <UniqueIdentifier>{c513bb64-2045-4699-985c-eaf12983c254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers">
+      <UniqueIdentifier>{3c5995c3-34ca-4e65-bdca-d7df9b806295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\intrusive">
+      <UniqueIdentifier>{ce47dae5-8385-42be-9737-a59204bae451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\intrusive\base">
+      <UniqueIdentifier>{90f63e01-e6b4-4733-b817-9e04645cdfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\intrusive\pointer">
+      <UniqueIdentifier>{c89ca326-49ad-4bf4-bd88-d4780eebee0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug">
+      <UniqueIdentifier>{c4ec4b96-394e-458c-b98a-19e792b5925f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug\non_null">
+      <UniqueIdentifier>{ed2bee35-22ab-4e47-b4f6-23190d0ba991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug\loose">
+      <UniqueIdentifier>{2b6d525d-1466-4566-b7f5-2c18c4ab0f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug\loose\pointer">
+      <UniqueIdentifier>{dc5df52a-45ad-4c29-a9d9-874e0ece6175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug\loose\base">
+      <UniqueIdentifier>{b7a6b265-2929-4d75-86fc-e8b808453484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug\loose\data">
+      <UniqueIdentifier>{16a32083-06f0-4549-9065-ff8ae30f27e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointers\debug\raw">
+      <UniqueIdentifier>{402626cf-2533-4037-b8d1-9ab4a624617d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\console_commands">
+      <UniqueIdentifier>{d7329d83-3110-4e88-911b-47f0fc07ceff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings">
+      <UniqueIdentifier>{f29092d5-c2df-4b0d-90be-64dad29ead85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\shared">
+      <UniqueIdentifier>{a0d8f30c-2088-412b-80d2-be75aaea760e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\shared\string">
+      <UniqueIdentifier>{ee83c895-7e3c-47ce-bf9a-e28eca6cb1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\shared\profile">
+      <UniqueIdentifier>{18d43de4-9299-4394-8eb6-c88a09b68ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\functions">
+      <UniqueIdentifier>{a2fa67fa-38a9-43e8-88d7-055eb183f55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\concatenations">
+      <UniqueIdentifier>{0c70f526-4ee8-464c-a000-7ac6006bbb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\concatenations\detail">
+      <UniqueIdentifier>{65e75297-c9e9-44c2-85b1-31fcebc36e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\fixed">
+      <UniqueIdentifier>{dbb84721-f18d-4bf7-ba8e-2ef59eda01a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\buffer">
+      <UniqueIdentifier>{6ea04307-7a58-4f79-87e1-1bef0926e435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\strings\stream">
+      <UniqueIdentifier>{d05a7966-ebb6-4d49-a312-e7816e5e3865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\configs">
+      <UniqueIdentifier>{a04c77fa-af97-4a4a-bd1e-0388180d01d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\configs\binary">
+      <UniqueIdentifier>{3d2ff74c-9998-4ea1-add5-41e1ac544d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\configs\binary\value">
+      <UniqueIdentifier>{9aca8dc3-80f0-4e02-a893-dcabe51e7320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\configs\lua">
+      <UniqueIdentifier>{1d7ebc88-4a9d-46a6-8102-c3a895ea5617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\configs\lua\value">
+      <UniqueIdentifier>{8145c490-7bec-4357-be88-afc94dd4d4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\command_line">
+      <UniqueIdentifier>{d84ea69c-650e-4ec4-8909-d5683b75b50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\detail">
+      <UniqueIdentifier>{325cdd77-9790-4124-ad65-cf48e2309949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\compression">
+      <UniqueIdentifier>{eb273b38-2370-4400-8cec-ee80763f1698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\platform">
+      <UniqueIdentifier>{d67ba58c-0cbd-4277-b92e-3ee3f95ddcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\testing">
+      <UniqueIdentifier>{2ddb8b18-03d4-45e8-8eb3-830beb2ac7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory">
+      <UniqueIdentifier>{3eccae27-6e08-4878-ad0a-063324feb8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators">
+      <UniqueIdentifier>{9f766ad6-da2d-47d9-9a32-43eb657d5182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators\wrappers">
+      <UniqueIdentifier>{f5143529-359c-43de-b045-a04e2e14f024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators\wrappers\dlmalloc">
+      <UniqueIdentifier>{41112e60-2766-4b50-91a2-b2013b1de528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators\wrappers\ptmalloc3">
+      <UniqueIdentifier>{eba4f0f0-3411-4f3a-9635-14ef79c1758d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators\wrappers\base">
+      <UniqueIdentifier>{c2ad291f-eaee-42e7-84b2-72dc49473296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators\wrappers\crt">
+      <UniqueIdentifier>{c7f460b5-af8d-4474-8265-ef257e5fa336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\allocators\pool_allocator">
+      <UniqueIdentifier>{5338b7a2-8b55-4668-ade2-80a009c5980f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\debug">
+      <UniqueIdentifier>{1ede8578-e2a7-4ccf-aa4a-8e07e93a329d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\macros">
+      <UniqueIdentifier>{5e71082a-7eef-47ff-b60c-e5ac055dc96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader">
+      <UniqueIdentifier>{f98edc67-9c56-4c45-a09d-6f12286d2078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader\wrapper">
+      <UniqueIdentifier>{b13358b1-b786-44b2-ab90-1b497d1fef6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader\chunk">
+      <UniqueIdentifier>{610b2cbc-916f-4585-9927-b324b4e2a318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader\chunk\sequential">
+      <UniqueIdentifier>{b5304801-8e0a-4fac-a61c-9cb2321332d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader\chunk\associative">
+      <UniqueIdentifier>{6e54e43d-5a6b-412c-a539-8436186d1109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader\chunk\array">
+      <UniqueIdentifier>{c5a8f55a-138f-48b3-9dd0-032e1116b61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\reader\abstract">
+      <UniqueIdentifier>{2eaa5ed2-3baf-4626-ae91-5b7bf72d3823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\stream">
+      <UniqueIdentifier>{db9fb466-1ffd-4d46-a57a-acf054674b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\buffer">
+      <UniqueIdentifier>{c617792a-2a23-4fa9-b69b-65877fe97c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\operators">
+      <UniqueIdentifier>{529c30fe-e9fe-4a75-970d-edf52fffb1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\uninitialized_reference">
+      <UniqueIdentifier>{48011095-d79f-4395-a3b3-7f02868418f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memory\writer">
+      <UniqueIdentifier>{5c52a5aa-2bc3-425c-8fe9-fb3890008a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tasks">
+      <UniqueIdentifier>{3194dc17-cff4-452a-88e6-22ec1bd4273f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tasks\tasks_aware_primitives">
+      <UniqueIdentifier>{be55d975-d503-4040-bea3-db566b01fac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\logging">
+      <UniqueIdentifier>{0a855d05-c13b-49c5-a4d8-8917e580a74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\logging\helper">
+      <UniqueIdentifier>{4ef5fdcb-2031-41fe-ab2f-a8b7f107ef29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\logging\log_file">
+      <UniqueIdentifier>{105f19d2-258e-4336-996e-3157ce9d5d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\geometry_utils">
+      <UniqueIdentifier>{9b13f3db-a921-4abf-9d9d-a4731bfcb2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\stdlib">
+      <UniqueIdentifier>{cb89d823-5b8b-42d3-b33c-9217e5f563f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers">
+      <UniqueIdentifier>{23dab535-b8a0-46cd-8a84-751bcc3b9fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent">
+      <UniqueIdentifier>{2689b343-c80d-4ac2-85a8-f4d93263aaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent\limited_intrusive_list">
+      <UniqueIdentifier>{39b37006-f3b5-4485-9a27-b788eda1dd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent\c_array">
+      <UniqueIdentifier>{d2ce7e21-0a9e-47c1-a0ba-d797eb072f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent\intrusive_mpsc_queue">
+      <UniqueIdentifier>{c2486bee-bd03-4c86-9f70-59805bd7c43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent\intrusive_spsc_queue">
+      <UniqueIdentifier>{98a14950-7696-4a33-9b62-100992ec2d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent\intrusive_spmc_queue">
+      <UniqueIdentifier>{a2468842-54ed-47c0-ba10-bcac3d868341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\concurrent\intrusive_mpmc_queue">
+      <UniqueIdentifier>{ac3c8b70-88c2-4d34-9336-3d14dbb414c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety">
+      <UniqueIdentifier>{2458f71d-30cc-492d-ad96-205cf8e2ba42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\fixed_vector">
+      <UniqueIdentifier>{b687b844-ac24-4400-9129-ea17daf10c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\hash_multiset">
+      <UniqueIdentifier>{39881798-13b8-4802-9dc6-65bf02d51a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\buffer_vector">
+      <UniqueIdentifier>{c8dda523-810d-40e9-bb53-8654f3212463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\associative_vector">
+      <UniqueIdentifier>{865721af-3695-400c-98b5-860bcce74536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\associative_vector\compare_predicate">
+      <UniqueIdentifier>{6738614c-6d15-40b6-8896-d40d8a19a94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std">
+      <UniqueIdentifier>{656ff121-186d-4112-972d-52991c93a295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std\vector">
+      <UniqueIdentifier>{65970922-e261-41ad-9cdf-d0a04dd8feba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std\set">
+      <UniqueIdentifier>{ee94841a-af91-480c-ad9f-0eee592f60dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std\map">
+      <UniqueIdentifier>{aa0a9fdc-d2c5-4398-9500-18c3a7d839e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std\allocator">
+      <UniqueIdentifier>{faf07ac3-2a9c-4e9b-af2f-f32e77bfc217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std\multiset">
+      <UniqueIdentifier>{f3e8594e-8ddc-4b4f-b552-c3e413bb6d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\std\deque">
+      <UniqueIdentifier>{6c9d94b5-104c-4ea2-a246-99827740be87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\thread_unsafety\vectora">
+      <UniqueIdentifier>{04a3ecb5-2b7f-4325-8b59-4ebf18ff0a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\policy">
+      <UniqueIdentifier>{360757e8-0969-4a50-b7ee-95952ec01e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\policy\intrusive_double_linked_list">
+      <UniqueIdentifier>{e7bd6626-425e-4c49-b24e-f6b05c3518ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\policy\intrusive_list">
+      <UniqueIdentifier>{5f79b283-0518-48cb-984b-ea042fb3af2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\containers\policy\intrusive_queue">
+      <UniqueIdentifier>{e784e591-d181-459d-85a0-86416c2a1a70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.cpp">
+      <Filter>extensions\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_multi.cpp">
+      <Filter>extensions\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_win.cpp">
+      <Filter>extensions\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_helper.cpp">
+      <Filter>extensions\logging\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_helper_ps3.cpp">
+      <Filter>extensions\logging\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_helper_win_xbox360.cpp">
+      <Filter>extensions\logging\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_path_parts.cpp">
+      <Filter>extensions\logging\helper\path_parts</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_settings.cpp">
+      <Filter>extensions\logging\helper\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_log_file.cpp">
+      <Filter>extensions\logging\log_file</Filter>
+    </ClCompile>
+    <ClCompile Include="logging_rule_tree_node.cpp">
+      <Filter>extensions\logging\rule_tree_node</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>extensions\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_ps3.cpp">
+      <Filter>extensions\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_win.cpp">
+      <Filter>extensions\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_xbox360.cpp">
+      <Filter>extensions\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_doug_lea_allocator.cpp">
+      <Filter>extensions\memory\allocators\wrappers\dlmalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_pthreads3_allocator.cpp">
+      <Filter>extensions\memory\allocators\wrappers\ptmalloc3</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_crt_allocator.cpp">
+      <Filter>extensions\memory\allocators\wrappers\crt</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_crt_allocator_multi.cpp">
+      <Filter>extensions\memory\allocators\wrappers\crt</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_crt_allocator_win.cpp">
+      <Filter>extensions\memory\allocators\wrappers\crt</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_base_allocator.cpp">
+      <Filter>extensions\memory\allocators\wrappers\base</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_stack_arena_allocator.cpp">
+      <Filter>extensions\memory\allocators\wrappers\stack_arena_allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_process_allocator.cpp">
+      <Filter>extensions\memory\allocators\wrappers\process</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_process_allocator_multi.cpp">
+      <Filter>extensions\memory\allocators\wrappers\process</Filter>
+    </ClCompile>
+    <ClCompile Include="ptmalloc3\malloc.c">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="ptmalloc3\ptmalloc3.c">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="ptmalloc3\sysdeps\win_xbox360_ps3\win_xbox360_ps3.c">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\win_xbox360_ps3</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual_alloc.cpp">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\virtual_alloc</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_monitor.cpp">
+      <Filter>extensions\memory\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_reader.cpp">
+      <Filter>extensions\memory\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_chunk_reader.cpp">
+      <Filter>extensions\memory\reader\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_stream.cpp">
+      <Filter>extensions\memory\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_leak_detector.cpp">
+      <Filter>extensions\memory\leak_detector</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_guard.cpp">
+      <Filter>extensions\memory\guard</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_writer.cpp">
+      <Filter>extensions\memory\writer</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_event_ps3.cpp">
+      <Filter>extensions\threading\primitives\event</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_event_win_xbox360.cpp">
+      <Filter>extensions\threading\primitives\event</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_mutex_ps3.cpp">
+      <Filter>extensions\threading\primitives\mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_mutex_win_xbox360.cpp">
+      <Filter>extensions\threading\primitives\mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_functions.cpp">
+      <Filter>extensions\threading\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_functions_ps3.cpp">
+      <Filter>extensions\threading\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_functions_win.cpp">
+      <Filter>extensions\threading\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_functions_win_xbox360.cpp">
+      <Filter>extensions\threading\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_functions_xbox360.cpp">
+      <Filter>extensions\threading\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="threading_test.cpp">
+      <Filter>extensions\threading\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="os_functions_win.cpp">
+      <Filter>extensions\os_extensions\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_check_no_multithread.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_macros.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_multi.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_ps3.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_win.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_win_xbox360.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_xbox360.cpp">
+      <Filter>extensions\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_bugtrap_multi.cpp">
+      <Filter>extensions\debug\bugtrap</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_bugtrap_win.cpp">
+      <Filter>extensions\debug\bugtrap</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_initialize.cpp">
+      <Filter>extensions\debug\initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_initialize_ps3.cpp">
+      <Filter>extensions\debug\initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_initialize_win.cpp">
+      <Filter>extensions\debug\initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_initialize_win_xbox360.cpp">
+      <Filter>extensions\debug\initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_initialize_xbox360.cpp">
+      <Filter>extensions\debug\initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_unhandled_ps3.cpp">
+      <Filter>extensions\debug\unhandled</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_unhandled_win.cpp">
+      <Filter>extensions\debug\unhandled</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_unhandled_win_xbox360.cpp">
+      <Filter>extensions\debug\unhandled</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_unhandled_xbox360.cpp">
+      <Filter>extensions\debug\unhandled</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_call_stack_multi.cpp">
+      <Filter>extensions\debug\call_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_call_stack_win.cpp">
+      <Filter>extensions\debug\call_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="strings_functions.cpp">
+      <Filter>extensions\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings_shared_manager.cpp">
+      <Filter>extensions\strings\shared\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="strings_shared_profile.cpp">
+      <Filter>extensions\strings\shared\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer_string.cpp">
+      <Filter>extensions\strings\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="strings_detail_tuples.cpp">
+      <Filter>extensions\strings\concatenations\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="strings_stream.cpp">
+      <Filter>extensions\strings\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="delayhlp.cpp">
+      <Filter>extensions\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_extensions_win.cpp">
+      <Filter>extensions\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system.cpp">
+      <Filter>extensions\fs\file system</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_ps3.cpp">
+      <Filter>extensions\fs\file system</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_win.cpp">
+      <Filter>extensions\fs\file system</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_xbox360.cpp">
+      <Filter>extensions\fs\file system</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_nodes_impl.cpp">
+      <Filter>extensions\fs\file system\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_mount_db.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_mount_disk.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_mount_disk_ps3.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_mount_disk_win_xbox360.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_nodes.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_replication.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_saving_db.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_unmount.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_unpacking.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_utils.cpp">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_path.cpp">
+      <Filter>extensions\fs\path</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_path_ps3.cpp">
+      <Filter>extensions\fs\path</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_path_win.cpp">
+      <Filter>extensions\fs\path</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_path_xbox360.cpp">
+      <Filter>extensions\fs\path</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_helper.cpp">
+      <Filter>extensions\fs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_utils.cpp">
+      <Filter>extensions\fs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_utils_ps3.cpp">
+      <Filter>extensions\fs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_utils_win_xbox360.cpp">
+      <Filter>extensions\fs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_file_system_impl_watcher.cpp">
+      <Filter>extensions\fs\watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_folder_watcher_win.cpp">
+      <Filter>extensions\fs\watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_watcher_multi.cpp">
+      <Filter>extensions\fs\watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="fs_watcher_win.cpp">
+      <Filter>extensions\fs\watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="game_resources_manager.cpp">
+      <Filter>extensions\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_impl.cpp">
+      <Filter>extensions\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_allocator.cpp">
+      <Filter>extensions\resources\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_managed_allocator.cpp">
+      <Filter>extensions\resources\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_managed_allocator_test_win_xbox360.cpp">
+      <Filter>extensions\resources\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_memory.cpp">
+      <Filter>extensions\resources\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_device_manager.cpp">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_device_manager_thread.cpp">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_device_manager_thread_ps3.cpp">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_device_manager_thread_win_xbox360.cpp">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_hdd_manager.cpp">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_test.cpp">
+      <Filter>extensions\resources\test</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_queries_result.cpp">
+      <Filter>extensions\resources\query_result</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_query_result.cpp">
+      <Filter>extensions\resources\query_result</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_query_result_allocation.cpp">
+      <Filter>extensions\resources\query_result</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_query_result_cook.cpp">
+      <Filter>extensions\resources\query_result</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_query_result_path.cpp">
+      <Filter>extensions\resources\query_result</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_query_result_replication.cpp">
+      <Filter>extensions\resources\query_result</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_cook_base.cpp">
+      <Filter>extensions\resources\cook</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_cook_classes.cpp">
+      <Filter>extensions\resources\cook</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_fs_impl.cpp">
+      <Filter>extensions\resources\fs operations</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_fs_iterator.cpp">
+      <Filter>extensions\resources\fs operations</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_mounts.cpp">
+      <Filter>extensions\resources\fs operations</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_intrusive_base.cpp">
+      <Filter>extensions\resources\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_managed_resource.cpp">
+      <Filter>extensions\resources\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_name_registry_entry.cpp">
+      <Filter>extensions\resources\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_resource_base.cpp">
+      <Filter>extensions\resources\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_unmanaged_resource.cpp">
+      <Filter>extensions\resources\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager_allocation.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager_cook.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager_helper.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager_new_queries.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager_out_of_memory.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager_user_thread.cpp">
+      <Filter>extensions\resources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="build_extensions.cpp">
+      <Filter>extensions\build</Filter>
+    </ClCompile>
+    <ClCompile Include="timing_functions_ps3.cpp">
+      <Filter>extensions\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="timing_functions_win.cpp">
+      <Filter>extensions\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="timing_functions_xbox360.cpp">
+      <Filter>extensions\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_ltx_config.cpp">
+      <Filter>extensions\configs\ltx</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_ltx_config_cook.cpp">
+      <Filter>extensions\configs\ltx\cook</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_binary_config.cpp">
+      <Filter>extensions\configs\binary_config</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_binary_config_value.cpp">
+      <Filter>extensions\configs\binary_config\value</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_binary_config_cook.cpp">
+      <Filter>extensions\configs\binary_config\cook</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_lua_config.cpp">
+      <Filter>extensions\configs\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="script_engine_wrapper.cpp">
+      <Filter>extensions\configs\lua\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="configs_lua_config_cook.cpp">
+      <Filter>extensions\configs\lua\cook</Filter>
+    </ClCompile>
+    <ClCompile Include="console_command.cpp">
+      <Filter>extensions\console</Filter>
+    </ClCompile>
+    <ClCompile Include="console_command_processor.cpp">
+      <Filter>extensions\console</Filter>
+    </ClCompile>
+    <ClCompile Include="compressors_test.cpp">
+      <Filter>extensions\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="compressor_ppmd.cpp">
+      <Filter>extensions\compression\ppmd</Filter>
+    </ClCompile>
+    <ClCompile Include="testing_impl.cpp">
+      <Filter>extensions\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="command_line.cpp">
+      <Filter>extensions\command_line</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_allocator.cpp">
+      <Filter>extensions\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_manager.cpp">
+      <Filter>extensions\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_task.cpp">
+      <Filter>extensions\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_thread_pool.cpp">
+      <Filter>extensions\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_thread_pool_utils.cpp">
+      <Filter>extensions\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_type.cpp">
+      <Filter>extensions\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_aware_event.cpp">
+      <Filter>extensions\tasks\tasks_aware_primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_aware_functions.cpp">
+      <Filter>extensions\tasks\tasks_aware_primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_aware_mutex.cpp">
+      <Filter>extensions\tasks\tasks_aware_primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="math_float4x4.cpp">
+      <Filter>extensions\math\float4x4</Filter>
+    </ClCompile>
+    <ClCompile Include="math_sphere.cpp">
+      <Filter>extensions\math\sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="math_obb.cpp">
+      <Filter>extensions\math\obb</Filter>
+    </ClCompile>
+    <ClCompile Include="math_aabb.cpp">
+      <Filter>extensions\math\aabb</Filter>
+    </ClCompile>
+    <ClCompile Include="math_cylinder.cpp">
+      <Filter>extensions\math\cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="math_float3.cpp">
+      <Filter>extensions\math\float3</Filter>
+    </ClCompile>
+    <ClCompile Include="math_frustum.cpp">
+      <Filter>extensions\math\frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="math_quaternion.cpp">
+      <Filter>extensions\math\quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="math_aabb_plane.cpp">
+      <Filter>extensions\math\aabb_plane</Filter>
+    </ClCompile>
+    <ClCompile Include="math_cuboid.cpp">
+      <Filter>extensions\math\cuboid</Filter>
+    </ClCompile>
+    <ClCompile Include="math_constants.cpp">
+      <Filter>extensions\math\constants</Filter>
+    </ClCompile>
+    <ClCompile Include="math_tests.cpp">
+      <Filter>extensions\math\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_primitives.cpp">
+      <Filter>include\geometry_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_utils.cpp">
+      <Filter>include\geometry_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core_entry_point.cpp" />
+    <ClCompile Include="core_entry_point_multi.cpp" />
+    <ClCompile Include="core_entry_point_ps3.cpp" />
+    <ClCompile Include="core_entry_point_win.cpp" />
+    <ClCompile Include="core_entry_point_win_xbox360.cpp" />
+    <ClCompile Include="core_entry_point_xbox360.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>extensions\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="logging_path_parts.h">
+      <Filter>extensions\logging\helper\path_parts</Filter>
+    </ClInclude>
+    <ClInclude Include="logging_rule_tree_node.h">
+      <Filter>extensions\logging\rule_tree_node</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>extensions\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_platform.h">
+      <Filter>extensions\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_stack_arena_allocator.h">
+      <Filter>extensions\memory\allocators\wrappers\stack_arena_allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_block.h">
+      <Filter>extensions\memory\allocators\wrappers\stack_arena_allocator\block</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_process_allocator.h">
+      <Filter>extensions\memory\allocators\wrappers\process</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\malloc-2.8.3.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\malloc-private.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\out_of_memory_handler_types.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\generic\atomic.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\generic\malloc-machine.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\generic\thread-st.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\pthread\malloc-machine.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\pthread\thread-st.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\win32\malloc-machine.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\sproc\malloc-machine.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\sproc</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\sproc\thread-st.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\sproc</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\solaris\malloc-machine.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\solaris</Filter>
+    </ClInclude>
+    <ClInclude Include="ptmalloc3\sysdeps\solaris\thread-st.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\sysdeps\solaris</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual_alloc.h">
+      <Filter>extensions\memory\allocators\ptmalloc3 &amp; dlmalloc\virtual_alloc</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_monitor.h">
+      <Filter>extensions\memory\monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_leak_detector.h">
+      <Filter>extensions\memory\leak_detector</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_guard.h">
+      <Filter>extensions\memory\guard</Filter>
+    </ClInclude>
+    <ClInclude Include="threading_functions.h">
+      <Filter>extensions\threading\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>extensions\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_internal.h">
+      <Filter>extensions\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_platform.h">
+      <Filter>extensions\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_bugtrap.h">
+      <Filter>extensions\debug\bugtrap</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_float.h">
+      <Filter>extensions\debug\initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_call_stack.h">
+      <Filter>extensions\debug\call_stack</Filter>
+    </ClInclude>
+    <ClInclude Include="strings_shared_manager.h">
+      <Filter>extensions\strings\shared\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_extensions_win.h">
+      <Filter>extensions\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_macros.h">
+      <Filter>extensions\fs\file system\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_path_iterator.h">
+      <Filter>extensions\fs\path_iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_path_iterator_inline.h">
+      <Filter>extensions\fs\path_iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_helper.h">
+      <Filter>extensions\fs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_helper_inline.h">
+      <Filter>extensions\fs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_watcher.h">
+      <Filter>extensions\fs\watcher</Filter>
+    </ClInclude>
+    <ClInclude Include="game_resources_manager.h">
+      <Filter>extensions\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_impl.h">
+      <Filter>extensions\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_allocator.h">
+      <Filter>extensions\resources\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_allocators.h">
+      <Filter>extensions\resources\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_macros.h">
+      <Filter>extensions\resources\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_managed_allocator.h">
+      <Filter>extensions\resources\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_unmanaged_allocator.h">
+      <Filter>extensions\resources\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_device_manager.h">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_hdd_manager.h">
+      <Filter>extensions\resources\device_managers</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_base_cook.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_configuration.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_inplace_managed.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_inplace_unmanaged.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_managed.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_resource.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_translate_query.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_test_unmanaged.h">
+      <Filter>extensions\resources\test</Filter>
+    </ClInclude>
+    <ClInclude Include="member_to_functor.h">
+      <Filter>extensions\resources\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="member_to_functor_inline.h">
+      <Filter>extensions\resources\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_callbacks.h">
+      <Filter>extensions\resources\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_helper.h">
+      <Filter>extensions\resources\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_fs_impl.h">
+      <Filter>extensions\resources\fs operations</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>extensions\resources\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="build_extensions.h">
+      <Filter>extensions\build</Filter>
+    </ClInclude>
+    <ClInclude Include="timing.h">
+      <Filter>extensions\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="configs_ltx_config.h">
+      <Filter>extensions\configs\ltx</Filter>
+    </ClInclude>
+    <ClInclude Include="configs_ltx_config_cook.h">
+      <Filter>extensions\configs\ltx\cook</Filter>
+    </ClInclude>
+    <ClInclude Include="configs_binary_config.h">
+      <Filter>extensions\configs\binary_config</Filter>
+    </ClInclude>
+    <ClInclude Include="configs_binary_config_cook.h">
+      <Filter>extensions\configs\binary_config\cook</Filter>
+    </ClInclude>
+    <ClInclude Include="script_engine_wrapper.h">
+      <Filter>extensions\configs\lua\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="configs_lua_config_cook.h">
+      <Filter>extensions\configs\lua\cook</Filter>
+    </ClInclude>
+    <ClInclude Include="compressor_ppmd_allocator.h">
+      <Filter>extensions\compression\ppmd</Filter>
+    </ClInclude>
+    <ClInclude Include="compressor_ppmd_stream.h">
+      <Filter>extensions\compression\ppmd</Filter>
+    </ClInclude>
+    <ClInclude Include="compressor_ppmd_stream_inline.h">
+      <Filter>extensions\compression\ppmd</Filter>
+    </ClInclude>
+    <ClInclude Include="testing_impl.h">
+      <Filter>extensions\testing</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks_allocator.h">
+      <Filter>extensions\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks_thread_pool.h">
+      <Filter>extensions\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks_type.h">
+      <Filter>extensions\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\extensions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_extensions.h">
+      <Filter>include\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_building.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_compile_assert.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_compiler.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_library_name.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_platform.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_strings.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_todo.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro_unreferenced_parameter.h">
+      <Filter>include\macro\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\optimization_extensions.h">
+      <Filter>include\optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\type_enum_flags.h">
+      <Filter>include\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\type_extensions.h">
+      <Filter>include\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\type_variant.h">
+      <Filter>include\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\type_variant_inline.h">
+      <Filter>include\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_check_invariants.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_check_no_multithread.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_check_no_multithread_inline.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_extensions.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_macros.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_macros_inline.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_pointer_cast.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_signalling_bool.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_static_cast_checked.h">
+      <Filter>include\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os_extensions.h">
+      <Filter>include\os_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os_include.h">
+      <Filter>include\os_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os_preinclude.h">
+      <Filter>include\os_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os_functions.h">
+      <Filter>include\os_extensions\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_extensions.h">
+      <Filter>include\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_policies.h">
+      <Filter>include\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_event.h">
+      <Filter>include\threading\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_mutex.h">
+      <Filter>include\threading\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_functions.h">
+      <Filter>include\threading\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_functions_guard.h">
+      <Filter>include\threading\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_functions_ps3_inline.h">
+      <Filter>include\threading\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_functions_win_inline.h">
+      <Filter>include\threading\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threading_functions_xbox_inline.h">
+      <Filter>include\threading\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library_linkage.h">
+      <Filter>include\linkage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\linkage_helper.h">
+      <Filter>include\linkage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simple_engine.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\timing_extensions.h">
+      <Filter>include\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\timing_timer.h">
+      <Filter>include\timing\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\timing_timer_inline.h">
+      <Filter>include\timing\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\timing_functions.h">
+      <Filter>include\timing\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_constants.h">
+      <Filter>include\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_extensions.h">
+      <Filter>include\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math_utils.h">
+      <Filter>include\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_functions.h">
+      <Filter>include\math\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_functions_inline.h">
+      <Filter>include\math\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float2.h">
+      <Filter>include\math\float2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float2_inline.h">
+      <Filter>include\math\float2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float3.h">
+      <Filter>include\math\float3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float3_inline.h">
+      <Filter>include\math\float3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float4.h">
+      <Filter>include\math\float4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float4_inline.h">
+      <Filter>include\math\float4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float4x4.h">
+      <Filter>include\math\float4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_float4x4_inline.h">
+      <Filter>include\math\float4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_plane.h">
+      <Filter>include\math\plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_plane_inline.h">
+      <Filter>include\math\plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_sphere.h">
+      <Filter>include\math\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_sphere_inline.h">
+      <Filter>include\math\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_aabb.h">
+      <Filter>include\math\aabb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_aabb_inline.h">
+      <Filter>include\math\aabb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_obb.h">
+      <Filter>include\math\obb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_rectangle.h">
+      <Filter>include\math\rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_rectangle_inline.h">
+      <Filter>include\math\rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_quaternion.h">
+      <Filter>include\math\quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_quaternion_inline.h">
+      <Filter>include\math\quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_cylinder.h">
+      <Filter>include\math\cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_cylinder_inline.h">
+      <Filter>include\math\cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_frustum.h">
+      <Filter>include\math\frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_color.h">
+      <Filter>include\math\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_color_inline.h">
+      <Filter>include\math\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_aabb_plane.h">
+      <Filter>include\math\aabb_plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_int2.h">
+      <Filter>include\math\int2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_int2_inline.h">
+      <Filter>include\math\int2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_cuboid.h">
+      <Filter>include\math\cuboid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_randoms_generator.h">
+      <Filter>include\math\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_randoms_table.h">
+      <Filter>include\math\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\math_randoms_table_inline.h">
+      <Filter>include\math\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_callbacks.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_classes.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_cook_base.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_cook_classes.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_fs.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_memory.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_queries_result.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_query_result.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_reader.h">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_intrusive_base.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_managed_resource.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_name_registry_entry.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_pinned_ptr.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_resource.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_resource_base.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_resource_link.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_resource_ptr.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_resource_ptr_inline.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources_unmanaged_resource.h">
+      <Filter>include\resources\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fs_platform_configuration.h">
+      <Filter>include\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fs_utils.h">
+      <Filter>include\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fs_path.h">
+      <Filter>include\fs\path_string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fs_path_string.h">
+      <Filter>include\fs\path_string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pointer_extensions.h">
+      <Filter>include\pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_base.h">
+      <Filter>include\pointers\intrusive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_base_inline.h">
+      <Filter>include\pointers\intrusive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_ptr.h">
+      <Filter>include\pointers\intrusive\pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_ptr_inline.h">
+      <Filter>include\pointers\intrusive\pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug_pointers.h">
+      <Filter>include\pointers\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\non_null_ptr.h">
+      <Filter>include\pointers\debug\non_null</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\non_null_ptr_inline.h">
+      <Filter>include\pointers\debug\non_null</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\loose_ptr.h">
+      <Filter>include\pointers\debug\loose\pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\loose_ptr_inline.h">
+      <Filter>include\pointers\debug\loose\pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\loose_ptr_base.h">
+      <Filter>include\pointers\debug\loose\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\loose_ptr_base_inline.h">
+      <Filter>include\pointers\debug\loose\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\loose_ptr_data.h">
+      <Filter>include\pointers\debug\loose\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\loose_ptr_data_inline.h">
+      <Filter>include\pointers\debug\loose\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\raw_ptr.h">
+      <Filter>include\pointers\debug\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\raw_ptr_inline.h">
+      <Filter>include\pointers\debug\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\console_command.h">
+      <Filter>include\console_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\console_command_inline.h">
+      <Filter>include\console_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\console_command_processor.h">
+      <Filter>include\console_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_extensions.h">
+      <Filter>include\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared_string.h">
+      <Filter>include\strings\shared\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared_string_inline.h">
+      <Filter>include\strings\shared\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_shared_profile.h">
+      <Filter>include\strings\shared\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_shared_profile_inline.h">
+      <Filter>include\strings\shared\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_functions.h">
+      <Filter>include\strings\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_functions_inline.h">
+      <Filter>include\strings\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_concatenations.h">
+      <Filter>include\strings\concatenations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_detail_tuples.h">
+      <Filter>include\strings\concatenations\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_detail_tuples_inline.h">
+      <Filter>include\strings\concatenations\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fixed_string.h">
+      <Filter>include\strings\fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fixed_string_inline.h">
+      <Filter>include\strings\fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\buffer_string.h">
+      <Filter>include\strings\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\buffer_string_inline.h">
+      <Filter>include\strings\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_stream.h">
+      <Filter>include\strings\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings_stream_inline.h">
+      <Filter>include\strings\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\configs.h">
+      <Filter>include\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\configs_binary_config.h">
+      <Filter>include\configs\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\configs_binary_config_value.h">
+      <Filter>include\configs\binary\value</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\configs_binary_config_value_inline.h">
+      <Filter>include\configs\binary\value</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\configs_lua_config.h">
+      <Filter>include\configs\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\configs_lua_config_value.h">
+      <Filter>include\configs\lua\value</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\command_line_extensions.h">
+      <Filter>include\command_line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detail_noncopyable.h">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compressor.h">
+      <Filter>include\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\compressor_ppmd.h">
+      <Filter>include\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platform_extensions.h">
+      <Filter>include\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core_test_suite.h">
+      <Filter>include\testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\testing.h">
+      <Filter>include\testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\testing_inline.h">
+      <Filter>include\testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_extensions.h">
+      <Filter>include\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_synchronized_allocator.h">
+      <Filter>include\memory\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_allocator_helper.h">
+      <Filter>include\memory\allocators\wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_allocator_helper_inline.h">
+      <Filter>include\memory\allocators\wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_doug_lea_allocator.h">
+      <Filter>include\memory\allocators\wrappers\dlmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_pthreads3_allocator.h">
+      <Filter>include\memory\allocators\wrappers\ptmalloc3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_base_allocator.h">
+      <Filter>include\memory\allocators\wrappers\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_crt_allocator.h">
+      <Filter>include\memory\allocators\wrappers\crt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_fixed_size_allocator.h">
+      <Filter>include\memory\allocators\pool_allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_fixed_size_allocator_inline.h">
+      <Filter>include\memory\allocators\pool_allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_debug.h">
+      <Filter>include\memory\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_debug_parameters.h">
+      <Filter>include\memory\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_macros.h">
+      <Filter>include\memory\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_reader.h">
+      <Filter>include\memory\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_reader_inline.h">
+      <Filter>include\memory\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_reader_wrapper.h">
+      <Filter>include\memory\reader\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_reader_wrapper_inline.h">
+      <Filter>include\memory\reader\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_chunk_reader.h">
+      <Filter>include\memory\reader\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_sequential_chunk_reader.h">
+      <Filter>include\memory\reader\chunk\sequential</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_sequential_chunk_reader_inline.h">
+      <Filter>include\memory\reader\chunk\sequential</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_associative_chunk_reader.h">
+      <Filter>include\memory\reader\chunk\associative</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_associative_chunk_reader_inline.h">
+      <Filter>include\memory\reader\chunk\associative</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_array_chunk_reader.h">
+      <Filter>include\memory\reader\chunk\array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_array_chunk_reader_inline.h">
+      <Filter>include\memory\reader\chunk\array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_reader_abstract.h">
+      <Filter>include\memory\reader\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_stream.h">
+      <Filter>include\memory\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_stream_inline.h">
+      <Filter>include\memory\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_buffer.h">
+      <Filter>include\memory\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_buffer_inline.h">
+      <Filter>include\memory\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_override_operators.h">
+      <Filter>include\memory\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\construction.h">
+      <Filter>include\memory\uninitialized_reference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uninitialized_reference.h">
+      <Filter>include\memory\uninitialized_reference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_writer.h">
+      <Filter>include\memory\writer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\memory_writer_inline.h">
+      <Filter>include\memory\writer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tasks_system.h">
+      <Filter>include\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tasks_task.h">
+      <Filter>include\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tasks_thread_tls.h">
+      <Filter>include\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tasks_aware_event.h">
+      <Filter>include\tasks\tasks_aware_primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tasks_aware_functions.h">
+      <Filter>include\tasks\tasks_aware_primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tasks_aware_mutex.h">
+      <Filter>include\tasks\tasks_aware_primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\logging_extensions.h">
+      <Filter>include\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\logging_settings.h">
+      <Filter>include\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\logging_helper.h">
+      <Filter>include\logging\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\logging_log_file.h">
+      <Filter>include\logging\log_file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry_primitives.h">
+      <Filter>include\geometry_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry_utils.h">
+      <Filter>include\geometry_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\stdlib_extensions.h">
+      <Filter>include\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\stdlib_extensions_inline.h">
+      <Filter>include\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers_extensions.h">
+      <Filter>include\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\limited_intrusive_list.h">
+      <Filter>include\containers\concurrent\limited_intrusive_list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\limited_intrusive_list_inline.h">
+      <Filter>include\containers\concurrent\limited_intrusive_list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\c_array_functions.h">
+      <Filter>include\containers\concurrent\c_array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_mpsc_queue.h">
+      <Filter>include\containers\concurrent\intrusive_mpsc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_mpsc_queue_inline.h">
+      <Filter>include\containers\concurrent\intrusive_mpsc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_spsc_queue.h">
+      <Filter>include\containers\concurrent\intrusive_spsc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_spsc_queue_inline.h">
+      <Filter>include\containers\concurrent\intrusive_spsc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_spmc_queue.h">
+      <Filter>include\containers\concurrent\intrusive_spmc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_spmc_queue_inline.h">
+      <Filter>include\containers\concurrent\intrusive_spmc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="intrusive_mpmc_queue.h">
+      <Filter>include\containers\concurrent\intrusive_mpmc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_mpmc_queue_inline.h">
+      <Filter>include\containers\concurrent\intrusive_mpmc_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fixed_vector.h">
+      <Filter>include\containers\thread_unsafety\fixed_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fixed_vector_inline.h">
+      <Filter>include\containers\thread_unsafety\fixed_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hash_multiset.h">
+      <Filter>include\containers\thread_unsafety\hash_multiset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hash_multiset_inline.h">
+      <Filter>include\containers\thread_unsafety\hash_multiset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\buffer_vector.h">
+      <Filter>include\containers\thread_unsafety\buffer_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\buffer_vector_inline.h">
+      <Filter>include\containers\thread_unsafety\buffer_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\associative_vector.h">
+      <Filter>include\containers\thread_unsafety\associative_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\associative_vector_inline.h">
+      <Filter>include\containers\thread_unsafety\associative_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\associative_vector_compare_predicate.h">
+      <Filter>include\containers\thread_unsafety\associative_vector\compare_predicate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\associative_vector_compare_predicate_inline.h">
+      <Filter>include\containers\thread_unsafety\associative_vector\compare_predicate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\std_containers.h">
+      <Filter>include\containers\thread_unsafety\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector.h">
+      <Filter>include\containers\thread_unsafety\std\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector_inline.h">
+      <Filter>include\containers\thread_unsafety\std\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\set.h">
+      <Filter>include\containers\thread_unsafety\std\set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\set_inline.h">
+      <Filter>include\containers\thread_unsafety\std\set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\map.h">
+      <Filter>include\containers\thread_unsafety\std\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\map_inline.h">
+      <Filter>include\containers\thread_unsafety\std\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\std_allocator.h">
+      <Filter>include\containers\thread_unsafety\std\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\std_allocator_inline.h">
+      <Filter>include\containers\thread_unsafety\std\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multiset.h">
+      <Filter>include\containers\thread_unsafety\std\multiset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multiset_inline.h">
+      <Filter>include\containers\thread_unsafety\std\multiset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deque.h">
+      <Filter>include\containers\thread_unsafety\std\deque</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deque_inline.h">
+      <Filter>include\containers\thread_unsafety\std\deque</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vectora.h">
+      <Filter>include\containers\thread_unsafety\vectora</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vectora_inline.h">
+      <Filter>include\containers\thread_unsafety\vectora</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_double_linked_list.h">
+      <Filter>include\containers\policy\intrusive_double_linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_double_linked_list_inline.h">
+      <Filter>include\containers\policy\intrusive_double_linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_list.h">
+      <Filter>include\containers\policy\intrusive_list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_list_inline.h">
+      <Filter>include\containers\policy\intrusive_list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_queue.h">
+      <Filter>include\containers\policy\intrusive_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intrusive_queue_inline.h">
+      <Filter>include\containers\policy\intrusive_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="core_entry_point.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="fs_file_system.h">
+      <Filter>extensions\fs\file system</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fs_file_system_nodes_impl.h">
+      <Filter>extensions\fs\file system\nodes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fs_file_system_impl.h">
+      <Filter>extensions\fs\file system\impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fs_folder_watcher_win.h">
+      <Filter>extensions\fs\watcher</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{29cd2bc1-97ee-410a-bf18-c5a22587392a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{e144e69b-8221-4856-9ef4-e06e5e478e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{93d6cf17-01af-47c8-8559-367d3e3907a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input_handlers">
+      <UniqueIdentifier>{5ad74b0a-ef2c-4ed8-9c68-5c3ad9afb678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input_handlers\free fly">
+      <UniqueIdentifier>{f4ed045c-7b99-41fe-950e-cb4ade6095d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input_handlers\game_exit">
+      <UniqueIdentifier>{a3978bd6-58bf-460d-9f0d-072f7dadac03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{ec87faef-e22a-4fb6-92b1-3ced2f6bd84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stats">
+      <UniqueIdentifier>{6226fa65-4326-4e9d-ba72-7ab5c9d5766b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{e9fefe99-1506-43da-a4ec-59eefc2cc1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stats_graph">
+      <UniqueIdentifier>{db916deb-a427-4f78-a04e-c751e165b8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{d9cc2e8f-ff74-42b7-914f-777c8be3fa91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\solid_visual">
+      <UniqueIdentifier>{a1d29681-bb60-4ee6-9d5a-9a8868da0930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\object">
+      <UniqueIdentifier>{0c679ec7-8ebb-40df-b149-415307fa7ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\light">
+      <UniqueIdentifier>{4b50fdb3-8b64-4b20-aca4-a044fd991c5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game_library_linkage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_static.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="game_render.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="game_world.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="game_world_input.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu_input.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="input_handler_free_fly.cpp">
+      <Filter>input_handlers\free fly</Filter>
+    </ClCompile>
+    <ClCompile Include="game_exit_handler.cpp">
+      <Filter>input_handlers\game_exit</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="console_input.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>stats</Filter>
+    </ClCompile>
+    <ClCompile Include="cell.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cell_cooker.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cell_manager.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="game_resource_manager.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="game_resource_manager_callbacks.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="object_cooker.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="project_cooker.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="stats_graph.cpp">
+      <Filter>stats_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="object_solid_visual.cpp">
+      <Filter>objects\solid_visual</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>objects\object</Filter>
+    </ClCompile>
+    <ClCompile Include="object_light.cpp">
+      <Filter>objects\light</Filter>
+    </ClCompile>
+    <ClCompile Include="game_entry_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_memory.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library_linkage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resources.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_static.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="game_world.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="input_handler_free_fly.h">
+      <Filter>input_handlers\free fly</Filter>
+    </ClInclude>
+    <ClInclude Include="game_exit_handler.h">
+      <Filter>input_handlers\game_exit</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.h">
+      <Filter>stats</Filter>
+    </ClInclude>
+    <ClInclude Include="cell.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cell_cooker.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cell_manager.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="game_resource_manager.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="object_cooker.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="project_cooker.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="stats_graph.h">
+      <Filter>stats_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="object_solid_visual.h">
+      <Filter>objects\solid_visual</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>objects\object</Filter>
+    </ClInclude>
+    <ClInclude Include="object_light.h">
+      <Filter>objects\light</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

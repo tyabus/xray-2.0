@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{292fdf5f-2c21-47c6-8043-5b2e92e93594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0a8b6f70-43ea-4c13-af17-995bb18c326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{fc0c7c31-90d5-47ca-aac2-98f29e72a0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="receivers">
+      <UniqueIdentifier>{f796db02-845e-4ce4-8bf8-a6a57a2398bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="receivers\mouse">
+      <UniqueIdentifier>{f98e5b35-a89b-4b43-a0be-965f10d1178c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="receivers\keyboard">
+      <UniqueIdentifier>{b684da25-95a5-4e6a-adf5-28696b42e750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="receivers\gamepad">
+      <UniqueIdentifier>{1e58ce76-5487-4845-8b77-e223f920b29a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input_library_linkage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="input_world.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="input_world_multi.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="input_world_win.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_mouse.cpp">
+      <Filter>receivers\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_mouse_multi.cpp">
+      <Filter>receivers\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_mouse_win.cpp">
+      <Filter>receivers\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_keyboard.cpp">
+      <Filter>receivers\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_keyboard_multi.cpp">
+      <Filter>receivers\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_keyboard_win.cpp">
+      <Filter>receivers\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_gamepad_ps3.cpp">
+      <Filter>receivers\gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_gamepad_win_xbox360.cpp">
+      <Filter>receivers\gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="input_entry_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input_memory.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gamepad.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\handler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\keyboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library_linkage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mouse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\world.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="input_world.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="direct_input_include.h">
+      <Filter>receivers</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver_mouse.h">
+      <Filter>receivers\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver_keyboard.h">
+      <Filter>receivers\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver_gamepad.h">
+      <Filter>receivers\gamepad</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

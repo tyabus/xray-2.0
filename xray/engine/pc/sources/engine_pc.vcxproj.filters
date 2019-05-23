@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0ae6ffe2-7699-430d-8c3c-861ceaaae427}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\library_linkage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="linkage_resolver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine_pc_entry_point.cpp" />
+  </ItemGroup>
+</Project>

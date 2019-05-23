@@ -1,0 +1,8 @@
+xray2.ncb
+*.user
+*.orig
+*.bak
+*.temp
+*.db
+*.o
+*.obj

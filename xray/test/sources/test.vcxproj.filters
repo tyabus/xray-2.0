@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{e6e2acbf-ce76-4778-8fe3-f4df7885f40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{12fb3b00-162c-4340-a190-b4d95ef14878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{9d4f2c27-00c4-4d3c-94db-161ac10479fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="test_library_linkage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="heap.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="test_application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="test_application_2.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="test_entry_point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="test_memory.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="test_application.h">
+      <Filter>application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="saved_test.temp">
+      <Filter>application</Filter>
+    </None>
+  </ItemGroup>
+</Project>
